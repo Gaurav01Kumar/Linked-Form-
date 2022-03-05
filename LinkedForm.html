@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked Form </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            background-color: rgba(0,0,0,0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .center{
+            height: 450px;
+            width: 350px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            display:flex;
+            flex-direction: column;
+            box-shadow: 2px 10px 4px #ffffff , inset 2px -2px #ffffff;
+            padding:20px;
+            
+        }
+        .center h1{
+            text-align: left;
+            font-weight: 400;
+        }
+        .center p{
+            margin-top: 8px;
+            color: rgba(0,0,0,0.7);
+        }
+        form{
+            margin-top: 25px;
+              
+        }
+        input{
+            height: 45px;
+            width: 280px;
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: large;
+        border-radius: 10px;
+
+        }
+.password_box{
+    margin-top: 10px;
+    height: 48px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 19px;
+    
+}
+
+.password_box a{
+    text-align: center;
+    padding-top: 19px;
+    text-decoration: none;
+}
+.password_box input{
+    border: none;
+    outline: none;
+}
+.content{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.content a{
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 40px;
+}
+button{
+    padding: 18px 8px 18px 8px ;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: rgb(80, 80, 255);
+}
+    </style>
+</head>
+<body>
+     <div class="center">
+         <h1>SignIn</h1>
+         <p>Stay Update to your profesional World</p>
+     <form>
+         
+         <input type="email" placeholder="Email or phone"> 
+         
+        
+        <div class="password_box">
+        <input type="password" placeholder="Password">
+        <a href="#">Show</a>
+        </div>
+        <br>
+        <div class="content">
+        <a href="#">Forgot password</a>
+        <button>SignIn</button>
+    </div>
+     </form>
+     </div>
+</body>
+</html>
